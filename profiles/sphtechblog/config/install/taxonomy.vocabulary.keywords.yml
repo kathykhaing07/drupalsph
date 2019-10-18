@@ -1,0 +1,8 @@
+uuid: bdd43b5c-b7be-419e-b141-9e1616d0a90a
+langcode: en
+status: true
+dependencies: {  }
+name: Keywords
+vid: keywords
+description: 'Keywords for Blog'
+weight: 0

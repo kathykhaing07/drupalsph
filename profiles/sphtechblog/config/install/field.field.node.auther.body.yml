@@ -1,0 +1,22 @@
+uuid: f110f022-d19a-4fe6-a16d-ec39729c7f5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.auther
+  module:
+    - text
+id: node.auther.body
+field_name: body
+entity_type: node
+bundle: auther
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

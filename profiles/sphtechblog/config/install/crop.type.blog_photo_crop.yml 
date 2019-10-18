@@ -1,0 +1,12 @@
+uuid: e170d0f2-7b8d-454d-a8c0-09197595c485
+langcode: en
+status: true
+dependencies: {  }
+label: 'Blog Photo Crop'
+id: blog_photo_crop
+description: 450x300
+aspect_ratio: ''
+soft_limit_width: 450
+soft_limit_height: 300
+hard_limit_width: null
+hard_limit_height: null

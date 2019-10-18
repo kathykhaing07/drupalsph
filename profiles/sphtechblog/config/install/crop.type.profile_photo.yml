@@ -1,0 +1,12 @@
+uuid: b4a3febc-380d-4ad0-bc05-c88aad1e9641
+langcode: en
+status: true
+dependencies: {  }
+label: 'Profile Photo Crop'
+id: profile_photo
+description: ''
+aspect_ratio: '6:7'
+soft_limit_width: 60
+soft_limit_height: 70
+hard_limit_width: 60
+hard_limit_height: 70

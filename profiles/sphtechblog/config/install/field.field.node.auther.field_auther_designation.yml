@@ -1,0 +1,19 @@
+uuid: 2ce100dc-1848-4c83-9d44-819039ebc804
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_auther_designation
+    - node.type.auther
+id: node.auther.field_auther_designation
+field_name: field_auther_designation
+entity_type: node
+bundle: auther
+label: Designation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,27 @@
+uuid: 7bb8281d-796a-46e1-b114-2eaa4fc9d89f
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.profile_photo
+  module:
+    - crop
+_core:
+  default_config_hash: Y9NmnZHQq20ASSyTNA6JnwtWrJJiSajOehGDtmUFdM0
+name: medium
+label: 'Medium (220×220)'
+effects:
+  bddf0d06-42f9-4c75-a700-a33cafa25ea0:
+    uuid: bddf0d06-42f9-4c75-a700-a33cafa25ea0
+    id: image_scale
+    weight: -9
+    data:
+      width: 60
+      height: 70
+      upscale: false
+  9aad7b1b-9070-4d1e-bab1-6875a0476743:
+    uuid: 9aad7b1b-9070-4d1e-bab1-6875a0476743
+    id: crop_crop
+    weight: -10
+    data:
+      crop_type: profile_photo

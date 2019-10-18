@@ -1,0 +1,30 @@
+uuid: ce9211da-6346-440f-847b-7ca7d31185a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.auther.body
+    - node.type.auther
+  module:
+    - text
+    - user
+id: node.auther.teaser
+targetEntityType: node
+bundle: auther
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

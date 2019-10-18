@@ -1,0 +1,14 @@
+uuid: 5aa62396-bcff-4a7c-956c-9a18b5aeb5ec
+name: Test
+mail: test@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

@@ -40,9 +40,11 @@ install:
   - tour
   - user
   - automated_cron
-  - config_update
   - crop
   - image_widget_crop
+  - text
+  - token
+  - file_entity
 themes:
   - bartik
   - seven
